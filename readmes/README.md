@@ -1,17 +1,20 @@
-# readme generator
-    GabriellaSwenson
+# 1
+    # 2
 
-    ## description
-    This project is a program to generate a readme
+## description
+    3
 
-    ## installation instructions
-    Clone the repository, open an integrated terminal for the index.js, and run "node index.js"
+## installation instructions
+    4
 
-    ## usage information
-    I am unsure
+## usage information
+    5
 
-    ## contribution guidelines
-    I made it
+## contribution guidelines
+    6
 
-    ## test instructions
-    run "node index,js" in the integrated terminal for index.js
+## test instructions
+    7
+
+    None
+

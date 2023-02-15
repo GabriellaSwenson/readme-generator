@@ -42,6 +42,27 @@ const questions = [
     message: "What are the TEST INSTRUCTIONS?",
     name: "test",
   },
+  {
+    type: "checkbox",
+    message: "What license are you using?",
+    name: "licenses",
+    choices: [
+      "None",
+      "Apache",
+      "GNU",
+      "MIT",
+      "BSD 2",
+      "BSD 3",
+      "BSL",
+      "CCZ",
+      "EPL",
+      "GNU A",
+      "GNU G",
+      "GNU L",
+      "MPL",
+      "Unlicense",
+    ],
+  },
 ];
 
 // TODO: Create a function to write README file

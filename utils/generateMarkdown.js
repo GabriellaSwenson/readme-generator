@@ -1,20 +1,9 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  "None",
-    "Apache",
-    "GNU",
-    "MIT",
-    "BSD 2",
-    "BSD 3",
-    "BSL",
-    "CCZ",
-    "EPL",
-    "GNU A",
-    "GNU G",
-    "GNU L",
-    "MPL",
-    "Unlicense";
+  if (license !== "None") {
+    return `https://img.shields.io/badge/License-${license}-yellow.svg`;
+  }
 }
 
 // TODO: Create a function that returns the license link
@@ -28,22 +17,25 @@ function renderLicenseSection(license) {}
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
-    ${data.username}
+     ${data.username}
 
-    ## description
-    ${data.description}
+## description
+${data.description}
 
-    ## installation instructions
-    ${data.installation}
+## installation instructions
+${data.installation}
 
-    ## usage information
-    ${data.usage}
+## usage information
+${data.usage}
 
-    ## contribution guidelines
-    ${data.contributions}
+## contribution guidelines
+${data.contributions}
 
-    ## test instructions
-    ${data.test}
+## test instructions
+${data.test}
+
+#### License
+${data.licenses}
 
 `;
 }
