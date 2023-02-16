@@ -19,19 +19,19 @@ function generateMarkdown(data) {
   return `# ${data.title}
      ${data.username}
 
-## description
+## Description
 ${data.description}
 
-## installation instructions
+## Installation Instructions
 ${data.installation}
 
-## usage information
+## Usage Information
 ${data.usage}
 
-## contribution guidelines
+## Contribution Guidelines
 ${data.contributions}
 
-## test instructions
+## Test Instructions
 ${data.test}
 
 ### License

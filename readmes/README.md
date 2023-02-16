@@ -1,20 +1,20 @@
 # Readme Generator
      GabriellaSwenson
 
-## description
-This project was about using node and markdown to create a program that would make a professional readme.
+## Description
+This project was about making a program using markdown and node that could create a professional readme.
 
-## installation instructions
-You clone the repository to your desktop and make sure to have node installed.
+## Installation Instructions
+You clone the repository and make sure to have node installed.
 
-## usage information
-There isn't any usage information.
+## Usage Information
+There isn't anything on usage information.
 
-## contribution guidelines
-You can modify it as you like so long as you don't change the original.
+## Contribution Guidelines
+You can modify it however you like so long as it isn't changing the original code.
 
-## test instructions
-Open up a terminal for index.js and run node index.js
+## Test Instructions
+Open up an integrated terminal for index.js and run node index.js
 
 ### License
 None
