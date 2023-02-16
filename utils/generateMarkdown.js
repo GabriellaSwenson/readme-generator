@@ -34,7 +34,7 @@ ${data.contributions}
 ## test instructions
 ${data.test}
 
-#### License
+### License
 ${data.licenses}
 
 `;
